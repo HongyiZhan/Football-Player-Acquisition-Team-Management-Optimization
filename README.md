@@ -19,13 +19,20 @@ In the competitive arena of professional football, strategic player acquisition 
 4. **Usage**: Run the Jupyter notebooks to execute optimization models.
 
 ## Procedure
-
+1. **Define Objective Function**
 ![Team Optimization](s2.png "objective")
+
+Manchester City, a top-tier English football club, faced a pivotal season in 2016-2017, marked by a transformation under the stewardship of new manager Pep Guardiola. This period represented a shift towards an innovative playing style, and our analysis centered on utilizing optimization techniques to assist Guardiola in this transitional phase. The primary goal was twofold: Firstly, to determine an optimal 25-player squad for registration, aiming to maximize the team's performance while adhering to budgetary constraints, squad composition requirements, and player acquisition limits. Secondly, the focus was on devising the best starting 11 for crucial matches, especially against formidable opponents like Barcelona and Liverpool. By applying optimization models to comprehensive player data, our objective was to strategically strengthen the team through targeted transfers, thereby setting the stage for Guardiola to achieve success in the upcoming seasons.
+
+2. **Implement Constraints**
 
 ![Team Optimization](s3.png "Team Optimization Strategy")
 
+3. **Use Gurobi Optimization**
+
 ![Team Optimization](s4.png "Team Optimization Strategy")
 
+We introduced multiple objective functions focusing on enhancing attacking capabilities for choosing the 26-player squad. Priorities include maximizing scoring proficiency, aerial accuracy for defensive players, and identifying young talents with high growth potential for the 2021 Euro Cup. For the starting 11, we proposed a more aggressive 4-3-3 formation, optimizing speed for wingers and the crossing quality of full-backs. Additionally, we provided insights into a 3-4-3 formation, emphasizing the pivotal roles of LWB and RWB, midfield defensive responsibilities, and attacking creativity. Key attributes like control, spatial awareness, and defensive acumen in central defenders are underscored. Utilizing multiple objective functions, we aimed to amplify performance in the 3-4-3 formation and scrutinize the coach's strategic utilization, thereby unlocking the team's full potential.
 
 ## Contributing
 Contributions are welcome. Please read `CONTRIBUTING.md` for more details.
