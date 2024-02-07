@@ -3,7 +3,7 @@
 ## Introduction
 In the competitive arena of professional football, strategic player acquisition and management are crucial for a team's success. This project harnesses Gurobi optimization techniques to offer teams a sophisticated, data-driven framework for making informed decisions on player acquisitions, lineups, and coaches. Focusing on multiple objective optimization with a hierarchical approach and discrete optimization through Mixed-Integer Programming (MIP), the project aims to assess player selections and critically evaluate coaching decisions.
 
-![Team Optimization](team_optimization.png "Team Optimization Strategy")
+![Team Optimization](s1.png "Team Optimization Strategy")
 
 
 ## Features
@@ -11,6 +11,10 @@ In the competitive arena of professional football, strategic player acquisition 
 - **Coaching Strategies**: Analyzing coaching decisions to maximize team performance, with a case study on the German national team.
 - **Optimization Model**: Detailed mathematical formulations including constraints for player selection and team composition.
 - **Results**: Empirical analysis comparing optimized selections with actual team performances.
+
+![Team Optimization](s2.png "Team Optimization Strategy")
+
+![Team Optimization](s3.png "Team Optimization Strategy")
 
 ## Getting Started
 1. **Prerequisites**: Python, Gurobi.
